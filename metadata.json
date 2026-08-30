@@ -1,0 +1,6 @@
+{
+  "name": "VedaSanctum - Panchakarma & Ayurvedic Wellness",
+  "description": "An authentic holistic healing sanctuary offering classical Panchakarma therapies, scientific longevity insights, dosha assessments, and an intelligent Ayurvedic assistant.",
+  "requestFramePermissions": [],
+  "majorCapabilities": ["MAJOR_CAPABILITY_SERVER_SIDE_GEMINI_API"]
+}

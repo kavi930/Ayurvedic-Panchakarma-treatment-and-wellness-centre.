@@ -1,0 +1,53 @@
+@import "tailwindcss";
+
+@theme {
+  --font-display: "Playfair Display", Georgia, serif;
+  --font-body: "Source Sans 3", -apple-system, BlinkMacSystemFont, sans-serif;
+  --font-serif: "Playfair Display", Georgia, serif;
+  --font-sans: "Source Sans 3", -apple-system, BlinkMacSystemFont, sans-serif;
+  
+  --color-primary: #334537;
+  --color-primary-dark: #223025;
+  --color-primary-light: #4a5d4e;
+  --color-primary-container: #4a5d4e;
+  --color-on-primary: #ffffff;
+  --color-on-primary-container: #c0d5c2;
+  
+  --color-secondary: #775a19;
+  --color-secondary-gold: #c5a059;
+  --color-secondary-container: #fed488;
+  --color-on-secondary-container: #785a1a;
+  
+  --color-sanctum-bg: #fbf9f5;
+  --color-sanctum-surface: #f5f3ef;
+  --color-sanctum-card: #ffffff;
+  --color-sanctum-border: #e5e0d8;
+  --color-sanctum-sage: #e1e6e2;
+  --color-sanctum-sand: #d4c8b8;
+}
+
+body {
+  font-family: var(--font-body);
+  background-color: #fbf9f5;
+  color: #37443a;
+}
+
+h1, h2, h3, h4, .font-display, .font-serif {
+  font-family: var(--font-display);
+}
+
+/* Custom smooth scrollbar */
+::-webkit-scrollbar {
+  width: 8px;
+  height: 8px;
+}
+::-webkit-scrollbar-track {
+  background: #f5f3ef;
+}
+::-webkit-scrollbar-thumb {
+  background: #c3c8c1;
+  border-radius: 4px;
+}
+::-webkit-scrollbar-thumb:hover {
+  background: #737872;
+}
